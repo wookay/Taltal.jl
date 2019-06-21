@@ -1,0 +1,16 @@
+name = "Taltal"
+uuid = "8caeadda-93d1-11e9-3946-3101ffbf397f"
+authors = ["WooKyoung Noh <wookay.noh@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+TranscodingStreams = "3bb67fe8-82b1-5028-8e26-92a6c54297fa"
+CodecZlib = "944b1d66-785c-5afd-91f1-9de20f533193"
+
+[extras]
+Jive = "ba5e3d4b-8524-549f-bc71-e76ad9e9deed"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test", "Jive"]
