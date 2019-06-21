@@ -1,12 +1,20 @@
-# Taltal
+# Taltal.jl
 
-탈탈(taltal) 데이터 패키지를 사용합니다.
-https://github.com/taltal-ddj/taltal
+|  **Build Status**               |
+|:-------------------------------:|
+|  [![][travis-img]][travis-url]  |
+
+
+### 데이터 출처
+  탈탈(taltal) 데이터를 `CSV`로 변환함
+  https://github.com/taltal-ddj/taltal
+
 
 ### 패키지 설치하기
 ```julia
 julia> using Pkg; Pkg.add("https://github.com/wookay/Taltal.jl.git")
 ```
+
 
 ### 사용하기
 ```julia
@@ -18,3 +26,7 @@ julia> highofficer
 │       │ String      │ String      │ String     │ String⍰      │ String │
 ...
 ```
+
+
+[travis-img]: https://api.travis-ci.org/wookay/Taltal.jl.svg?branch=master
+[travis-url]: https://travis-ci.org/wookay/Taltal.jl
