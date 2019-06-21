@@ -6,13 +6,14 @@
 
 
 ### 데이터 출처
-  탈탈(taltal) 데이터를 `CSV`로 변환함
+  탈탈(taltal) 데이터를 `CSV`로 변환하여 사용합니다
   https://github.com/taltal-ddj/taltal
 
 
 ### 패키지 설치하기
+  Julia 에서 `]`키를 누르고
 ```julia
-julia> using Pkg; Pkg.add("https://github.com/wookay/Taltal.jl.git")
+(v1.1) pkg> add https://github.com/wookay/Taltal.jl.git
 ```
 
 
