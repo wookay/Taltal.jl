@@ -14,3 +14,8 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [targets]
 test = ["Test", "Jive"]
+
+[compat]
+CSV = "0.7"
+TranscodingStreams = "0.9"
+CodecZlib = "0.6, 0.7"
