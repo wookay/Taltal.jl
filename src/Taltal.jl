@@ -7,11 +7,11 @@ using TranscodingStreams # TranscodingStream
 using CodecZlib # GzipDecompressor
 
 function read_data(path::String)
-    f = open(path)
-    stream = TranscodingStream(GzipDecompressor(), f)
-    data = CSV.read(stream)
+    file = open(path)
+    stream = TranscodingStream(GzipDecompressor(), file)
+    data = CSV.File(stream)
     close(stream)
-    close(f)
+    close(file)
     data
 end
 
