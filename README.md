@@ -1,8 +1,8 @@
 # Taltal.jl
 
-|  **Build Status**               |
-|:-------------------------------:|
-|  [![][travis-img]][travis-url]  |
+|  **Build Status**                |
+|:---------------------------------|
+|  [![][actions-img]][actions-url] |
 
 
 ### 데이터 출처
@@ -13,7 +13,7 @@
 ### 패키지 설치하기
   Julia 에서 `]`키를 누르고
 ```julia
-(v1.1) pkg> add https://github.com/wookay/Taltal.jl.git
+(v1.5) pkg> add https://github.com/wookay/Taltal.jl.git
 ```
 
 
@@ -22,12 +22,10 @@
 julia> using Taltal
 
 julia> highofficer
-86174×18 DataFrames.DataFrame. Omitted printing of 13 columns
-│ Row   │ 소속_대분류 │ 소속_소분류 │ 소속       │ 직위         │ 성명   │
-│       │ String      │ String      │ String     │ String⍰      │ String │
+86174-element CSV.File{false}:
 ...
 ```
 
 
-[travis-img]: https://api.travis-ci.org/wookay/Taltal.jl.svg?branch=master
-[travis-url]: https://travis-ci.org/wookay/Taltal.jl
+[actions-img]: https://github.com/wookay/Taltal.jl/workflows/CI/badge.svg
+[actions-url]: https://github.com/wookay/Taltal.jl/actions
